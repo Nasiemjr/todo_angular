@@ -26,6 +26,11 @@ export class AddTaskComponent {
       return;
     }
 
+    if (!this.day){
+      alert('Please add a date!');
+      return;
+    }
+
     const newTask = {
       text: this.text,
       day: this.day,

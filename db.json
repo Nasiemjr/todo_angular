@@ -9,7 +9,7 @@
     {
       "text": "Learn more code!",
       "day": "2023-01-09",
-      "reminder": true,
+      "reminder": false,
       "id": 2
     }
   ]
